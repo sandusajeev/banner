@@ -1,9 +1,33 @@
 .banner{
     position: relative;
-    background-image: url(https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg);
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630);
     background-size: cover;
     background-position: center;
     height: 630px;
     color: white;
 
+}
+
+
+.nav-bar{
+    position: absolute;
+    top: 0;
+    background: gray;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+    font-weight: bold;
+
+}
+
+.nav-bar a:hover{
+    text-decoration: underline;
 }
