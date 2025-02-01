@@ -1,9 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .banner{
     position: relative;
     background-image: url(https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 400px;
+    width:100%;
     color: white;
 
 }
@@ -12,7 +17,7 @@
 .nav-bar{
     position: absolute;
     top: 0;
-    width: 97.9%;
+    width: 97.6%;
     background: rgb(90, 89, 89);
     padding: 10px 20px;
     display: flex;
